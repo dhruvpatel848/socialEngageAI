@@ -1,0 +1,76 @@
+{
+  "model_type": "xgboost",
+  "target": "engagement",
+  "timestamp": "20250802_002934",
+  "metrics": {
+    "train": {
+      "likes": {
+        "mse": 0.08492258936166763,
+        "rmse": 0.29141480635284756,
+        "mae": 0.13108666241168976,
+        "r2": 0.9999732375144958
+      },
+      "shares": {
+        "mse": 0.001453766948543489,
+        "rmse": 0.03812829590400663,
+        "mae": 0.023134350776672363,
+        "r2": 0.9999966621398926
+      },
+      "comments": {
+        "mse": 0.0036155616398900747,
+        "rmse": 0.060129540492923066,
+        "mae": 0.028305331245064735,
+        "r2": 0.9999763369560242
+      },
+      "average": {
+        "mse": 0.029997305983367067,
+        "rmse": 0.12989088091659243,
+        "mae": 0.06084211481114229,
+        "r2": 0.9999820788701376
+      }
+    }
+  },
+  "feature_importance": {
+    "media_type_text": 0.4828663170337677,
+    "media_type_image": 0.12516523897647858,
+    "hour_of_day": 0.11922411620616913,
+    "sentiment_compound": 0.09774897992610931,
+    "sentiment_neutral": 0.03290429711341858,
+    "sentiment_positive": 0.030616607517004013,
+    "media_type_video": 0.029199818149209023,
+    "month": 0.015827903524041176,
+    "day_of_week": 0.01449872087687254,
+    "avg_hashtag_length": 0.014174826443195343
+  },
+  "model_path": "../models\\xgboost_engagement_20250802_002934.joblib",
+  "feature_engineering_path": "E:\\social\\ml\\models\\feature_engineering_20250802_002934.pkl",
+  "feature_names": [
+    "followers_count",
+    "following_count",
+    "account_age",
+    "text_length",
+    "word_count",
+    "avg_word_length",
+    "sentiment_compound",
+    "sentiment_positive",
+    "sentiment_negative",
+    "sentiment_neutral",
+    "mention_count",
+    "url_count",
+    "exclamation_count",
+    "question_count",
+    "hashtag_count",
+    "avg_hashtag_length",
+    "follower_following_ratio",
+    "hour_of_day",
+    "day_of_week",
+    "month",
+    "media_type_image",
+    "media_type_text",
+    "media_type_video",
+    "time_category_afternoon",
+    "time_category_morning",
+    "is_weekend_0",
+    "is_weekend_1"
+  ]
+}

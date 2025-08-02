@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">EngageAI Architecture</text>
+  
+  <!-- Frontend -->
+  <rect x="50" y="100" width="200" height="120" rx="10" ry="10" fill="#61dafb" fill-opacity="0.7" stroke="#333" stroke-width="2" />
+  <text x="150" y="140" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Frontend</text>
+  <text x="150" y="170" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">React, Chart.js</text>
+  <text x="150" y="190" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Tailwind CSS</text>
+  
+  <!-- Backend -->
+  <rect x="300" y="100" width="200" height="120" rx="10" ry="10" fill="#68a063" fill-opacity="0.7" stroke="#333" stroke-width="2" />
+  <text x="400" y="140" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Backend</text>
+  <text x="400" y="170" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Node.js, Express</text>
+  <text x="400" y="190" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">REST API</text>
+  
+  <!-- ML Service -->
+  <rect x="550" y="100" width="200" height="120" rx="10" ry="10" fill="#3775a9" fill-opacity="0.7" stroke="#333" stroke-width="2" />
+  <text x="650" y="140" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">ML Service</text>
+  <text x="650" y="170" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Python, FastAPI</text>
+  <text x="650" y="190" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">scikit-learn, XGBoost</text>
+  
+  <!-- Database -->
+  <rect x="300" y="350" width="200" height="120" rx="10" ry="10" fill="#4db33d" fill-opacity="0.7" stroke="#333" stroke-width="2" />
+  <text x="400" y="390" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Database</text>
+  <text x="400" y="420" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">MongoDB</text>
+  <text x="400" y="440" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Data Storage</text>
+  
+  <!-- User -->
+  <circle cx="150" cy="350" r="40" fill="#f8f9fa" stroke="#333" stroke-width="2" />
+  <text x="150" y="355" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">User</text>
+  
+  <!-- External API -->
+  <rect x="550" y="350" width="200" height="120" rx="10" ry="10" fill="#ff6b6b" fill-opacity="0.7" stroke="#333" stroke-width="2" />
+  <text x="650" y="390" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">External APIs</text>
+  <text x="650" y="420" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Social Media</text>
+  <text x="650" y="440" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Data Sources</text>
+  
+  <!-- Connections -->
+  <!-- User to Frontend -->
+  <line x1="150" y1="310" x2="150" y2="220" stroke="#333" stroke-width="2" />
+  <polygon points="150,220 145,230 155,230" fill="#333" />
+  
+  <!-- Frontend to Backend -->
+  <line x1="250" y1="160" x2="300" y2="160" stroke="#333" stroke-width="2" />
+  <polygon points="300,160 290,155 290,165" fill="#333" />
+  
+  <!-- Backend to ML Service -->
+  <line x1="500" y1="160" x2="550" y2="160" stroke="#333" stroke-width="2" />
+  <polygon points="550,160 540,155 540,165" fill="#333" />
+  
+  <!-- Backend to Database -->
+  <line x1="400" y1="220" x2="400" y2="350" stroke="#333" stroke-width="2" />
+  <polygon points="400,350 395,340 405,340" fill="#333" />
+  
+  <!-- ML Service to Database -->
+  <line x1="600" y1="220" x2="450" y2="350" stroke="#333" stroke-width="2" />
+  <polygon points="450,350 445,340 455,345" fill="#333" />
+  
+  <!-- ML Service to External API -->
+  <line x1="650" y1="220" x2="650" y2="350" stroke="#333" stroke-width="2" />
+  <polygon points="650,350 645,340 655,340" fill="#333" />
+  
+  <!-- Legend -->
+  <rect x="50" y="500" width="700" height="60" rx="5" ry="5" fill="#f8f9fa" stroke="#333" stroke-width="1" />
+  <text x="400" y="525" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Data Flow</text>
+  <text x="400" y="545" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">User → Frontend → Backend → ML Service → Database</text>
+</svg>

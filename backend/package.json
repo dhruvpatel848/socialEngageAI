@@ -1,0 +1,31 @@
+{
+  "name": "engageai-backend",
+  "version": "1.0.0",
+  "description": "Backend API for EngageAI - AI-driven social media engagement prediction platform",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "winston": "^3.9.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3"
+  }
+}

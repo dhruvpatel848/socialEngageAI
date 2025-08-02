@@ -1,0 +1,31 @@
+post_id,post_text,media_type,hashtags,timestamp,user_id,followers_count,following_count,account_age,likes,shares,comments
+1,"Check out our new product launch! It's going to revolutionize the industry.",image,"#productlaunch #innovation #tech",2023-06-01T09:30:00,user123,5000,500,730,120,45,32
+2,"We're excited to announce our partnership with @techgiant for the upcoming conference.",text,"#partnership #conference #announcement",2023-06-02T14:15:00,user123,5000,500,730,85,30,18
+3,"Watch our tutorial on how to use the new features in our latest software update.",video,"#tutorial #software #update",2023-06-03T11:45:00,user123,5000,500,730,210,78,45
+4,"Happy Monday! Start your week with our motivational tips for productivity.",image,"#motivation #productivity #mondaymotivation",2023-06-05T08:00:00,user123,5000,500,730,95,25,12
+5,"Join us for a live Q&A session with our CEO tomorrow at 3 PM EST.",text,"#QandA #CEO #livestream",2023-06-06T16:30:00,user123,5000,500,730,65,15,28
+6,"Behind the scenes look at our design team working on the next big project.",video,"#behindthescenes #design #project",2023-06-07T13:20:00,user456,8000,300,365,180,60,35
+7,"Our annual report is now available. Check out our growth and achievements!",image,"#annualreport #growth #business",2023-06-08T10:00:00,user456,8000,300,365,110,40,22
+8,"Tips and tricks for maximizing your productivity with our software.",text,"#tips #productivity #software",2023-06-09T15:45:00,user456,8000,300,365,75,20,15
+9,"Exclusive interview with industry expert on future trends in technology.",video,"#interview #technology #trends",2023-06-12T14:30:00,user456,8000,300,365,190,65,38
+10,"Celebrating our 5-year anniversary today! Thank you to all our customers!",image,"#anniversary #celebration #thankyou",2023-06-13T11:00:00,user456,8000,300,365,250,85,60
+11,"New blog post: '10 Ways to Improve Your Social Media Strategy'",text,"#blog #socialmedia #strategy",2023-06-14T09:15:00,user789,12000,200,1095,130,50,25
+12,"Customer spotlight: See how @techstartup increased their ROI by 200% using our platform.",image,"#customerspotlight #ROI #success",2023-06-15T13:45:00,user789,12000,200,1095,160,55,30
+13,"Live demonstration of our new mobile app features starting in 10 minutes!",video,"#livedemo #mobileapp #features",2023-06-16T16:00:00,user789,12000,200,1095,220,75,42
+14,"Weekend special: Get 25% off all premium subscriptions until Sunday midnight.",text,"#weekendspecial #discount #offer",2023-06-17T10:30:00,user789,12000,200,1095,95,35,20
+15,"How our platform helped small businesses grow during the pandemic - success stories.",image,"#smallbusiness #success #pandemic",2023-06-19T14:00:00,user789,12000,200,1095,175,60,33
+16,"Introducing our new team members! Welcome aboard @john and @sarah.",text,"#newteam #welcome #growth",2023-06-20T11:30:00,user101,3000,800,180,70,18,25
+17,"Step-by-step tutorial: How to set up your account for maximum security.",video,"#tutorial #security #howto",2023-06-21T15:15:00,user101,3000,800,180,125,40,30
+18,"Our office views today - inspiration comes easy with this scenery!",image,"#office #inspiration #views",2023-06-22T09:45:00,user101,3000,800,180,85,22,15
+19,"Industry insights: The future of remote work and collaboration tools.",text,"#insights #remotework #future",2023-06-23T13:00:00,user101,3000,800,180,60,15,12
+20,"Sneak peek at our upcoming product release - you won't want to miss this!",video,"#sneakpeek #newproduct #comingsoon",2023-06-26T10:15:00,user101,3000,800,180,150,48,35
+21,"Thank you for 10,000 followers! We're grateful for your support.",image,"#milestone #followers #thankyou",2023-06-27T14:30:00,user202,10000,400,730,280,95,65
+22,"Join our webinar next week on 'Maximizing Social Media ROI' - register now!",text,"#webinar #socialmedia #ROI",2023-06-28T11:00:00,user202,10000,400,730,90,30,22
+23,"Customer testimonial: Hear what @bigcorp says about our enterprise solution.",video,"#testimonial #enterprise #customer",2023-06-29T16:45:00,user202,10000,400,730,170,58,40
+24,"Friday fun: Our team building activity yesterday was a huge success!",image,"#fridayfun #teambuilding #culture",2023-06-30T09:00:00,user202,10000,400,730,120,35,28
+25,"Breaking news: We've been nominated for 'Best SaaS Platform' award!",text,"#breakingnews #award #SaaS",2023-07-03T13:30:00,user202,10000,400,730,200,70,45
+26,"Watch our CEO's keynote speech at the International Tech Conference.",video,"#keynote #conference #tech",2023-07-04T15:00:00,user303,15000,250,1460,230,80,50
+27,"New case study: How we helped @retailbrand increase online engagement by 150%.",image,"#casestudy #retail #engagement",2023-07-05T10:45:00,user303,15000,250,1460,140,45,30
+28,"Pro tip: Use these keyboard shortcuts to save time with our software.",text,"#protip #shortcuts #productivity",2023-07-06T14:15:00,user303,15000,250,1460,85,25,18
+29,"Behind the scenes at our annual company retreat - team bonding and strategy planning.",video,"#companyretreat #team #strategy",2023-07-07T11:30:00,user303,15000,250,1460,190,65,38
+30,"Celebrating diversity: Meet our international team working across 12 countries.",image,"#diversity #international #team",2023-07-10T09:15:00,user303,15000,250,1460,160,55,32

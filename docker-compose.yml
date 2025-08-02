@@ -1,0 +1,76 @@
+version: '3.8'
+
+services:
+  # Frontend service
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: ../docker/frontend/Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - NEXT_PUBLIC_API_URL=http://localhost:5000
+    depends_on:
+      - backend
+    networks:
+      - engageai-network
+
+  # Backend service
+  backend:
+    build:
+      context: ./backend
+      dockerfile: ../docker/backend/Dockerfile
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - PORT=5000
+      - MONGO_URI=mongodb://mongo:27017/engageai
+      - JWT_SECRET=your_jwt_secret_key_change_in_production
+      - JWT_EXPIRE=30d
+      - ML_SERVICE_URL=http://ml-service:8000
+    depends_on:
+      - mongo
+      - ml-service
+    networks:
+      - engageai-network
+
+  # ML service
+  ml-service:
+    build:
+      context: ./ml
+      dockerfile: ../docker/ml/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./ml:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+      - MODEL_DIR=/app/models
+      - DATA_DIR=/app/data
+    networks:
+      - engageai-network
+
+  # MongoDB service
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - engageai-network
+
+networks:
+  engageai-network:
+    driver: bridge
+
+volumes:
+  mongo-data:
